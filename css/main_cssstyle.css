@@ -1052,7 +1052,7 @@ nav {
     -webkit-box-shadow: 10px 0 5px #2128327a;
     box-shadow: 10px 0 5px #2128327a;
     width: 100%;
-/*     position: fixed; */
+   position: fixed; 
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
