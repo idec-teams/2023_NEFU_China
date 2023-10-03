@@ -266,8 +266,8 @@ ul {
 }
 
 body {
-    background-color: #63cabc;
-    background: linear-gradient(to bottom, rgb(237, 195, 195), rgb(249, 80, 80));
+    background-color: white;
+    
     /* background-image: url(../images/pi.jpg); */
     background-size: contain;
     background-attachment: fixed;
