@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>iDEC NEFU_China 2023</title>
+	<title>iDEC NEFU_China 2022</title>
 	<link rel="stylesheet" type="text/css" href="../../css/main_cssstyle.css">
 	<style>
 		header {
@@ -49,7 +49,7 @@
 			</div>
 			<div class="chapters">
 				<div class="dropdown-menu cool-link">
-					<a class="chapter-nav " href="https://idec-teams.github.io/2023_NEFU_China/">
+					<a class="chapter-nav " href="../../static/home.html">
 						<div class="chapter-content">
 							<div class="chapter-title active ">
 								Home
@@ -101,7 +101,10 @@
 						<a href="../../static/report.pdf" class="dropdown-page cool-link2" target="_blank">
 							Report
 						</a>
-					
+						<a href="../../static/supplementary information.pdf" class="dropdown-page cool-link2"
+							target="_blank">
+							Supplementary information
+						</a>
 					</div>
 				</div>
 				<div class="dropdown-menu cool-link">
@@ -152,19 +155,43 @@
 		<aside class="sticky">
 			<div id="sub-nav" class="sub-navigation-content">
 				<div class="sub-navigation-chapter cool-link2">
-					<a class="main-nav-link" linkedidchapter="slide1-chapter1">Biosensor</a>
+					<a class="main-nav-link" linkedidchapter="slide1-chapter1">Molecular evolution: HmaS</a>
 					<!------Chapter one -->
 				</div>
+
 				<div class="sub-navigation-chapter cool-link2">
-					<a class="main-nav-link" linkedidchapter="slide1-chapter2">Directed evolution</a>
-					<!------Chapter Two -->
-				</div>
-				<div class="sub-navigation-chapter cool-link2">
-					<a class="main-nav-link" linkedidchapter="slide1-chapter3">Test</a>
+					<a class="main-nav-link" linkedidchapter="slide2-chapter2">
+						<li class="t">Random Mutant Strategy</li>
+					</a>
 					<!------Chapter Three -->
 				</div>
 				<div class="sub-navigation-chapter cool-link2">
-					<a class="main-nav-link" linkedidchapter="slide1-chapter4">References</a>
+					<a class="main-nav-link" linkedidchapter="slide2-chapter2">
+						<li class="t"> Continuous Mutant Strategy in vivo</li>
+					</a>
+					<!------Chapter Three -->
+				</div>
+				<div class="sub-navigation-chapter cool-link2">
+					<a class="main-nav-link" linkedidchapter="slide1-chapter2">Dual-Module Screening Platform</a>
+					<!------Chapter Two -->
+				</div>
+				<div class="sub-navigation-chapter cool-link2">
+					<a class="main-nav-link" linkedidchapter="slide1-chapter2">Pathway evolution: Metabolic engineering
+						modified HPP high-yield chassis strain</a>
+					<!------Chapter Two -->
+				</div>
+				<div class="sub-navigation-chapter cool-link2">
+					<a class="main-nav-link" linkedidchapter="slide1-chapter3">Overexpression of Key Genes to Enhance
+						the Precursor Supply</a>
+					<!------Chapter Three -->
+				</div>
+				<div class="sub-navigation-chapter cool-link2">
+					<a class="main-nav-link" linkedidchapter="slide1-chapter4">CRISPRi-mediated gene suppression to
+						Reduce Competitive Pathway</a>
+					<!------Chapter Four -->
+				</div>
+				<div class="sub-navigation-chapter cool-link2">
+					<a class="main-nav-link" linkedidchapter="slide1-chapter4">Modeling and docking</a>
 					<!------Chapter Four -->
 				</div>
 				<!--返回顶部箭头-->
@@ -180,33 +207,180 @@
 				<section class="slide-sections">
 					<div class="main-body">
 						<div class="main-body-content">
-							<div style="margin-top: 40px">
-								
+							<!-- <div style="margin-top: 40px">
+								<p>Our project aims to develop a dual selection system consisting of negative and
+									positive selections to identify PobR mutants responsive to different aromatic
+									compounds. </p>
+							</div> -->
+							<div class="figure-container" style="width: 50%; margin: 0 auto;">
+								<img src="../../images/21.jpg" alt="">
 							</div>
-							<div id="slide1-chapter1">	
+							<p>In order to achieve de novo synthesis of HMA, we employed metabolic engineering and
+								directed evolution strategies to
+								investigate and address two key challenges, including insufficient precursor supply and
+								limited activity of crucial
+								enzymes, in the biosynthesis of 4-hydroxymandelate (HMA).</p>
+							<p>Through gene overexpression and multi-level gene interference using the CRISPRi approach,
+								we successfully engineered an
+								<i>E. coli</i> chassis strain capable of stably producing the essential substrate
+								4-hydroxyphenylpyruvate (HPP) and the titer
+								reached 0.91 g/L. In a high-throughput screening process using a biosensor based on
+								allosteric transcription factors, we
+								eventually obtained a mutant clone, HmaS<sup>V152G</sup>, with a 125% improvement in the
+								catalytic
+								rate.
+							</p>
+							<p>The activity of the key enzyme and the viability of the strain were coupled through
+								directed evolution. In fermentation,
+								we achieved the high production of 3.63 g/L HMA in 24 h with a single supply of 20 g/L
+								glucose.</p>
+							<div id="slide1-chapter1">
+								<h2>Molecular evolution: HmaS</h2>
+
+								<p>
+									<b id="slide4-chapter3">Construction of the hmaS mutant library</b>
+								</p>
+								<p>
+									<strong id="slide4-chapter4">
+										Random Mutant Strategy</strong>
+								</p>
+								<p>We employed the approach of error-prone PCR, a discontinuous random mutagenesis
+									method, by adjusting Mn<sup>2+</sup>and Mg<sup>2+</sup>
+									concentrations and ratio to manipulate the mutation rate. Simultaneously, we used a
+									low-fidelity DNA polymerase
+									increasing the possibility of mutation.
+								</p>
+								<div class="figure-container" style="width: 50%; margin: 0 auto;">
+									<img src="../../images/14.png" alt="">
+								</div>
+								<p>
+									<strong id="slide4-chapter4">
+										Continuous Mutant Strategy in vivo</strong>
+								</p>
+								<p>In addition, we had constructed the eMuta T7 plasmid for expression in E. coli, which
+									can express the fusion protein of
+									T7RNA polymerase and cytidine deaminase to generate mutations continuously. The high
+									specificity of T7 RNA polymerase
+									and T7 promoters enabled the specific mutations during transcription. The cytidine
+									deaminase converted cytosine to
+									uracil by deamination reaction on the exposed coding strand.</p>
+								<div class="figure-container" style="width: 50%; margin: 0 auto;">
+									<img src="../../images/22.jpg" alt="">
+								</div>
 							</div>
 							<div id="slide1-chapter2">
-								
-								<div class="figure-container" style="width: 70%; margin: 0 auto;">
-									<img src="../../static/design/design2.png" alt="">
-								</div>
-								
-							</div>
-							<div class="figure-container" style="width: 80%; margin: 0 auto;">
-								<img src="../../static/design/design3.png" alt="">
+								<h2>Dual-Module Screening Platform</h2>
+								<p>In order to obtain highly active HmaS mutant individuals, we designed a screening
+									plasmid containing two modules: the
+									catalysis module and the sensing module. In the catalytic module, the <i>hmaS</i>
+									gene is
+									regulated by a constitutive promoter.
+									The sensing module contains two important reporter genes: the red fluorescent
+									protein <i>mCherry</i> gene and the cytosine
+									deaminase <i>codA</i> gene that converts 5-fluorocytosine (5-FC) to 5-fluorouracil
+									(5-FU),
+									which kills bacteria. HPP levels
+									decrease in response to high HmaS enzymatic activity, resulting in weak reporter
+									signal, and the strain shows a light
+									color and can survive in the medium containing 5-FC.</p>
+
+
 							</div>
 
 							<div id="slide1-chapter3">
-								
-								<div class="figure-container" style="width: 40%;margin: 0 auto;">
-									<img src="../../static/design/design4.png" alt="">
+								<h2>Pathway evolution: Metabolic engineering modified HPP high-yield chassis strain</h2>
+
+								<div class="figure-container" style="width: 50%; margin: 0 auto;">
+									<img src="../../images/16.png" alt="">
 								</div>
-								<div class="references" id="slide1-chapter4"
-									style="margin-bottom: 10%;font-size: 1.2em;">
-									<h2>References</h2>
-									
+								<p>We aimed to utilize <i>E. coli</i> endogenous glycolytic pathway, pentose phosphate
+									pathway
+									and shikimate pathway, which can
+									achieve de novo HPP synthesis with glucose as a substrate. However, under natural
+									conditions, the accumulation of
+									aromatic compounds in <i>E. coli</i> is limited, which prevents us from using HPP as
+									a
+									catalytic substrate. Therefore, we
+									designed two strategies: overexpressing and silencing key genes in biosynthesis
+									pathways, to improve the capability of
+									bacteria for HPP synthesis.
+								</p>
+							</div>
+
+
+							<div id="slide1-chapter3">
+								<h2>Overexpression of Key Genes to Enhance the Precursor Supply</h2>
+								<p>Phosphoenolpyruvate (PEP) and erythrose-4-phosphate (E4P) are two important precursor
+									molecules for the synthesis of
+									aromatic compounds. However, the fact of limited flux inhibits the synthesis of
+									downstream products.</p>
+								<p>We constructed the pSB1c-aroG<sup>fbr</sup>-tktA-ppsA (pATP) plasmid, in which the
+									expression of
+									three key genes was controlled by
+									an arabinose-inducible promoter. Overexpression of the phosphoenol pyruvate synthase
+									(<i>ppsA</i>) gene reduced PEP flowing
+									towards pyruvate, leading to PEP accumulation. To enhance E4P supply, we
+									overexpressed the transketolase (<i>tktA</i>) gene to
+									promote fructose-6-phosphate consumption. With overexpressed
+									aro<i>G<sup>fbr</sup></i> gene, both
+									crucial precursor molecules showed flux
+									into the shikimate pathway.</p>
+							</div>
+							<div id="slide1-chapter4">
+								<h2>CRISPRi-mediated gene suppression to Reduce Competitive Pathway</h2>
+								<p>In order to achieve multi-level inhibition of competitive genes for HPP production,
+									we employed the CRISPRi technique
+									based on mismatch sgRNAs. To alter the binding efficiency of the dCas9 protein to
+									the target genes and generate various
+									levels of inhibition, we introduced mutations in the 7-8 bp of sgRNA spacers to
+									create mismatched sgRNAs, which totally
+									encompassed 16 possible variants. Through assessing the impact of different sgRNA
+									variants on HPP production, we
+									successfully selected the optimal inhibition strength for the competitive genes,
+									leading to enhanced HPP production and
+									minimized growth stress caused by the gene knockout.</p>
+								<div class="figure-container" style="width: 50%; margin: 0 auto;">
+									<img src="../../images/17.png" alt="">
+								</div>
+								<div class="figure-container" style="width: 50%; margin: 0 auto;">
+									<img src="../../images/18.png" alt="">
+								</div>
+								<p>we selected 4 relevant genes <i>pykF</i>, <i>tyrB</i>, <i>tyrR</i> and
+									<i>pheA</i> as targets of inhibition.
+									These four genes are involved in the
+									pathways leading to the synthesis of alanine, tyrosine and phenylalanine. To
+									test
+									for monogenic and polygenic
+									inhibition, we designed corresponding mismatch sgRNA libraries for these four
+									genes,
+									and added BsaI restriction sites at
+									both ends of all sgRNAs. By mixing four mismatch sgRNA libraries and a carrier
+									plasmid containing dCas9 and other
+									necessary parts, using the Golden Gate method to randomly assemble the four
+									mismatch
+									sgRNAs into one plasmid, we had
+									access to a multiple mismatched sgRNAs library for polygenic inhibition.
+								</p>
+
+								<div class="figure-container" style="width: 50%; margin: 0 auto;">
+									<img src="../../images/23.jpg" alt="">
 								</div>
 							</div>
+							<div id="slide1-chapter5">
+								<h2>Modeling and docking</h2>
+								<p>To analyse the effects of amino acid substitutions on the response of HmaS protein
+									and the interaction between small
+									molecule ligands and the protein receptor, we used AlphaFold2 to simulate the
+									protein structure of the PobR mutant and
+									Autodock Vina to simulate the docking of HPP to the protein. The results of the
+									docking were visualized by Pymol and
+									LigPlus.</p>
+
+							</div>
+							<div class="figure-container" style="width: 50%; margin: 0 auto;">
+								<img src="../../images/20.png" alt="">
+							</div>
+
 						</div>
 				</section>
 			</div>
@@ -275,7 +449,7 @@
 		<div class="c-corporate-footer">
 			<div class="u-container">
 				<img src="../../static/logo.png" width="120px" height="40px">
-				<p class="c-corporate-footer__legal">iDEC-2023 NEFU_China</p>
+				<p class="c-corporate-footer__legal">iDEC-2022 NEFU_China</p>
 			</div>
 		</div>
 	</footer>
