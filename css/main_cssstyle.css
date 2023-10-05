@@ -22,7 +22,7 @@
 .timezone {
     width: 6px;
     height: 800px;
-    background: lightblue;
+    background: rgb(253, 180, 156);
     margin: 0 auto;
     margin-top: 50px;
     border-radius: 3px;
@@ -61,8 +61,8 @@
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    border: 4px solid rgba(255, 255, 255);
-    background: lightblue;
+    border: 4px solid rgb(242, 218, 218);
+    background: rgb(251, 170, 170);
     -webkit-transition: all 0.5s;
     -webkit-animation: showIn ease;
 }
@@ -121,7 +121,7 @@
 
 .timezone .time:hover,
 .timezone .timeleft:hover {
-    border: 4px solid lightblue;
+    border: 4px solid rgb(251, 160, 124);
     background: lemonchiffon;
     box-shadow: 0 0 2px 2px rgba(255, 255, 255);
 }
@@ -135,8 +135,8 @@
     left: 50px;
     width: 300px;
     height: 50px;
-    background: lightblue;
-    border: 3px solid #eee;
+    background: rgb(255, 255, 255);
+    border: 3px solid #ff9494;
     border-radius: 10px;
     z-index: 2;
     overflow: hidden;
@@ -266,8 +266,8 @@ ul {
 }
 
 body {
-    background-color: white;
-    
+    background-color: #63cabc;
+    background: linear-gradient(to bottom, rgb(237, 195, 195), rgb(249, 80, 80));
     /* background-image: url(../images/pi.jpg); */
     background-size: contain;
     background-attachment: fixed;
@@ -414,7 +414,7 @@ h2 {
 }
 
 .videoContent .videoElement {
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     left: 0;
     width: 100%;
@@ -425,9 +425,9 @@ h2 {
     position: absolute;
     top: 50%;
     left: 20%;
-    transform: translate(-35%, -50%);
-    max-width: 100%;
-    max-height: 100%;
+    transform: translate(-41%, -41%);
+    max-width: 68%;
+    max-height: 66%;
 }
 
 /************ Skip-main ****************/
@@ -635,7 +635,7 @@ input:checked+.switch-slider:before {
 .videoContent {
     background-color: rgb(40, 46, 83);
     width: 100%;
-    height: 705px;
+    height: 100%;
     object-fit: fill;
 }
 
@@ -1071,7 +1071,7 @@ nav {
     -webkit-box-shadow: 10px 0 5px #2128327a;
     box-shadow: 10px 0 5px #2128327a;
     width: 100%;
-   position: fixed; 
+    position: fixed;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
@@ -1571,7 +1571,7 @@ aside {
 
 .sub-navigation-chapter a {
     color: #212832;
-    font-size: 1.2em;
+    /* font-size: 1.2em; */
     padding: 0.3em 0.3em 0 0.5em;
     display: block
 }
