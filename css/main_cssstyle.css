@@ -425,7 +425,7 @@ h2 {
     position: absolute;
     top: 50%;
     left: 20%;
-    transform: translate(-41%, -41%);
+    transform: translate(-38%, -41%);
     max-width: 68%;
     max-height: 66%;
 }
@@ -635,7 +635,7 @@ input:checked+.switch-slider:before {
 .videoContent {
     background-color: rgb(40, 46, 83);
     width: 100%;
-    height: 100%;
+    height: 725px;
     object-fit: fill;
 }
 
