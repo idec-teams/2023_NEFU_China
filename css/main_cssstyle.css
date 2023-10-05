@@ -635,7 +635,7 @@ input:checked+.switch-slider:before {
 .videoContent {
     background-color: rgb(40, 46, 83);
     width: 100%;
-    height: 635px;
+    height: 705px;
     object-fit: fill;
 }
 
