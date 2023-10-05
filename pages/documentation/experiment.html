@@ -48,7 +48,7 @@
 			</div>
 			<div class="chapters">
 				<div class="dropdown-menu cool-link">
-						<a class="chapter-nav " href="https://idec-teams.github.io/2023_NEFU_China/">
+					<a class="chapter-nav " href="../../static/home.html">
 						<div class="chapter-content">
 							<div class="chapter-title active ">
 								Home
@@ -99,6 +99,10 @@
 						</a>
 						<a href="../../static/report.pdf" class="dropdown-page cool-link2" target="_blank">
 							Report
+						</a>
+						<a href="../../static/supplementary information.pdf" class="dropdown-page cool-link2"
+							target="_blank">
+							Supplementary information
 						</a>
 					</div>
 				</div>
@@ -151,28 +155,41 @@
 		<aside class="sticky">
 			<div id="sub-nav" class="sub-navigation-content">
 				<div class="sub-navigation-chapter cool-link2">
-					<a class="main-nav-link" linkedidchapter="slide1-chapter1">Designing a dual selection system<p>
+					<a class="main-nav-link" linkedidchapter="slide1-chapter1">Construction of the hamS mutant library
+						by error-prone PCR, and the plasmids mainly contain 3 parts.
 					</a>
 					<!------Chapter Two -->
 				</div>
 				<div class="sub-navigation-chapter cool-link2">
-					<a class="main-nav-link" linkedidchapter="slide1-chapter2">Directed evolution of PobR</a>
+					<a class="main-nav-link" linkedidchapter="slide1-chapter2"> Construction of the gY9s-dual
+						T7-Trrnb-HmaS(Scpa1)-Bio177 plasmid, and the plasmid contains 2 modules.</a>
 					<!------Chapter Three -->
 				</div>
 				<div class="sub-navigation-chapter cool-link2">
-					<a class="main-nav-link" linkedidchapter="slide1-chapter3">Fluorescence assay and screening of
-						the PobR mutant library</a>
+					<a class="main-nav-link" linkedidchapter="slide1-chapter3"> Construction of mismatch sgRNAs mutant
+						library</a>
 					<!------Chapter Three -->
 				</div>
 				<div class="sub-navigation-chapter cool-link2">
-					<a class="main-nav-link" linkedidchapter="slide1-chapter4">The specificity and detection range
-						of PobR mutants responsive to new ligands </a>
-					<!------Chapter Three -->
+					<a class="main-nav-link" linkedidchapter="slide3-chapter1">
+						<li class="t">Construction of mismatch sgRNA Target
+							eGFP</li>
+					</a>
+					<!------Chapter Two -->
 				</div>
 				<div class="sub-navigation-chapter cool-link2">
-					<a class="main-nav-link" linkedidchapter="slide1-chapter5">Modeling and docking</a>
+					<a class="main-nav-link" linkedidchapter="slide4-chapter1">
+						<li class="t">Construction of Polygenic mismatch
+							sgRNA</li>
+					</a>
+					<!------Chapter Two -->
+				</div>
+				<div class="sub-navigation-chapter cool-link2">
+					<a class="main-nav-link" linkedidchapter="slide1-chapter4">Characterization of CRISPRi platform
+					</a>
 					<!------Chapter Three -->
 				</div>
+
 
 				<!--            返回顶部箭头-->
 				<div id="to-top-arrow">
@@ -188,23 +205,85 @@
 					<div class="main-body">
 						<div class="main-body-content">
 							<div id="slide1-chapter1">
-								
-								
+								<h2>Construction of the hamS mutant library by error-prone PCR, and the plasmids mainly
+									contain 3 parts</h2>
+
+								<p>1. The catalytic module consisted of <i>hmaS</i>
+									gene. The HmaS coding sequence (<i>hmaS</i>),
+									which can express HmaS protein, having
+									key function in the conversion of 4-hydroxyphenylpyruvate (HPP) to
+									4-hydroxymandelate (HMA). And we constructed a hmaS
+									mutant library by error-prone PCR.</p>
+								<p>2. The sensing module consisted of <i>mCherry</i> gene, which could transcribes red
+									fluorescent protein. The fluorescence
+									intensity is coupled to the enzyme activity.</p>
+								<p>3. The cytosine deaminase codA gene that converts 5-fluorocytosine (5-FC) to
+									5-fluorouracil (5- FU), which kills
+									bacteria. And the catalytic activity is coupled with the strength of the reporter
+
 							</div>
 							<div id="slide1-chapter2">
-							
-								
+								<h2>Construction of the gY9s-dual T7-Trrnb-HmaS(Scpa1)-Bio177 plasmid, and the plasmid
+									contains 2 modules.</h2>
+								<p>1. The catalytic module contains 2 parts, dual T7 promoter and hmas gene. The high
+									specificity of T7 RNA polymerase and
+									T7 promoters enabled the specific mutations during transcription. The HmaS coding
+									sequence (<i>hmaS</i>), which can express
+									HmaS protein, having key function in the conversion of 4-hydroxyphenylpyruvate (HPP)
+									to 4-hydroxymandelate (HMA). </p>
+								<p>2. The sensing module contains of <i>PobR</i> promoter and mCherry gene. The
+									<i>PobR</i> gene
+									encoding the allosteric transcription
+									factor <i>PobR</i> protein that specifically responds to 4-hydroxyphenylpyruvate
+									(HPP). And
+									<i>mCherry</i>
+									gene, which could
+									transcribe red fluorescent protein. The fluorescence intensity is coupled to the
+									enzyme activity. The cytosine deaminase
+									<i>codA</i> gene that converts 5-fluorocytosine (5-FC) to 5-fluorouracil (5- FU),
+									which
+									kills bacteria.
+								</p>
 								<div class="figure-container auto-margin">
 								</div>
 							</div>
 							<div id="slide1-chapter3">
-							
+								<h2> Construction of mismatch sgRNAs mutant library</h2>
+								<p><b>Construction of mismatch sgRNA Target eGFP</b></p>
+								<p>1. dCas9: the codon GAT for Asp10 of the <i>cas9</i> gene was replaced by Ala and the
+									codon
+									CAC for His840 of the <i>cas9</i> gene was
+									replaced by Ala.</p>
+								<p>2. sgRNA targeted the coding sequence (+40 bp) of eGFP</p>
+								<p><b>Construction of Polygenic mismatch sgRNA</b></p>
+								<p>1. Replace the ori to obtain R6K-dCas9-eGFP as the base plasmid for subsequent
+									characterization. Replace sgRNA spacers to
+									individually target <i>pykF</i>, <i>tyrB</i>, <i>tyrR</i> and <i>pheA</i> in
+									R6K-dCas9-eGFP, and thus generated
+									R6K-dCas-pykF, R6K-dCas-tyrB,
+									R6K-dCas-tyrR, R6K-dCas-pheA.</p>
+								<p>2.These four sgRNA fragments were linked together by the Golden Gate method to
+									generate the R6K-dCas9-pykF-tyrB-tyrR-pheA
+									plasmid. Using degenerate primers in the amplifications of these sgRNAs to obtain
+									their mutated fragments, which were
+									subsequently subcloned into vectors to construct sgRNA-mutated plasmids leading to
+									the construction of the mutant
+									library.</p>
+
 							</div>
 							<div id="slide1-chapter4">
-								
-							</div>
-							<div id="slide1-chapter5" style="margin: 0 0 8%;">
-							
+								<h2> Characterization of CRISPRi platform
+								</h2>
+								<p>1. To assess the capacity of the CRISPRi system in repressing eGFP gene expression,
+									the R6K-dCas9-eGFP plasmid was
+									co-transformed with the reporter plasmid pYB1a-eGFP into E. coli BW25113 to induce
+									expression. Then measure Cell density
+									(OD600) and green fluorescence intensity by 96-well plate reader.</p>
+								<p>2. To test the effect of gene inhibition based on CRISPRi in HPP production process,
+									pATP and R6K-dCas9-sgRNA were
+									co-transformed into <i>E. coli </i>BWΔCD. The bacteria were collected by and further
+									cultivated at 30℃ for 24 h, HPP levels
+									were detected by HPLC.</p>
 							</div>
 						</div>
 					</div>
