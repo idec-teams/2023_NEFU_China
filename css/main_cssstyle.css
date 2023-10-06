@@ -1,6 +1,6 @@
 /*Global styles */
 .main-body-content p {
-    text-indent: 2em;
+    text-indent: 0em;
     line-height: 1.5;
     font-family: "Merriweather";
 }
@@ -388,7 +388,7 @@ h2 {
 
 .home-content p {
     padding: 0 10% 0 10%;
-    text-indent: 2em;
+    /* text-indent: 2em; */
     line-height: 1.5;
     font-size: 1.8em;
     text-align: justify;
@@ -1093,7 +1093,7 @@ nav {
 
 .logo {
     position: absolute;
-    top: -55px;
+    top: -60%;
     padding-left: 1em;
     z-index: -1;
 
@@ -1354,7 +1354,7 @@ a:visited.chapter-nav {
     display: block;
     position: relative;
     width: 0;
-    height: 3px;
+    height: 15px;
     background: #29303c;
     margin: auto;
     opacity: 0;
@@ -1393,11 +1393,11 @@ a:visited.chapter-nav {
 
 .introduction {
     width: 100%;
-    background-color: #212832;
+    background-color: #ffffff;
     -ms-grid-column: 1;
     -ms-grid-column-span: 7;
     grid-column: 1 / 8;
-    border-bottom: 10px solid #29303c;
+    border-bottom: 10px solid #ffffff;
 
 }
 
