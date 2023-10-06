@@ -43,7 +43,7 @@
 
 /*增加动画*/
 .timezone:after {
-    content: '待续';
+    /* content: '待续'; */
     width: 100px;
     color: #fff;
     position: absolute;
@@ -427,7 +427,7 @@ h2 {
     position: absolute;
     top: 50%;
     left: 20%;
-    transform: translate(-38%, -41%);
+    transform: translate(-275px, -167px);
     max-width: 68%;
     max-height: 66%;
 }
