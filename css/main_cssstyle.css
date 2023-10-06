@@ -266,8 +266,8 @@ ul {
 }
 
 body {
-/*     background-color: #63cabc;
-    background: linear-gradient(to bottom, rgb(237, 195, 195), rgb(249, 80, 80)); */
+    background-color: #ffffff;
+    /* background: linear-gradient(to bottom, rgb(237, 195, 195), rgb(249, 80, 80)); */
     /* background-image: url(../images/pi.jpg); */
     background-size: contain;
     background-attachment: fixed;
@@ -633,9 +633,9 @@ input:checked+.switch-slider:before {
 }
 
 .videoContent {
-    background-color: rgb(40, 46, 83);
+    background-color: rgb(255, 255, 255);
     width: 100%;
-    height: 725px;
+    height: 100%;
     object-fit: fill;
 }
 
@@ -1071,6 +1071,7 @@ nav {
     -webkit-box-shadow: 10px 0 5px #2128327a;
     box-shadow: 10px 0 5px #2128327a;
     width: 100%;
+    height: 80px;
     position: fixed;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
@@ -1092,7 +1093,7 @@ nav {
 
 .logo {
     position: absolute;
-    top: 5px;
+    top: -55px;
     padding-left: 1em;
     z-index: -1;
 
@@ -1130,6 +1131,7 @@ nav {
 .chapters {
     padding-top: 1.6em;
     padding-right: 1em;
+    font-size: large;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
